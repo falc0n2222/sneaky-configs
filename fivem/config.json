@@ -1,7 +1,9 @@
+// Before you do anything make sure you have a database created on the SH panel: https://panel.sneakyhub.com/
+
 {
     "user": "sneakyhub-database-username", // you will get this info from the database tab on https://panel.sneakyhub.com/
-    "password": "", // you will get this info from the database tab on https://panel.sneakyhub.com/
-    "host": "fi1.sneakyhub.com", // change fi1 to whatever node you are on
+    "password": "", // you will get this info from the database tab on https://panel.sneakyhub.com/ after clicking the eye icon
+    "host": "fi1.sneakyhub.com", // change fi1 to whatever node you are on, you can find this information from the settings tab or the ip on the panel
     "port": "3306", // leave this alone
-    "database": "vrp" // you will get this info from the database tab on https://panel.sneakyhub.com/
+    "database": "vrp" // you will get this info from the database tab on https://panel.sneakyhub.com/ it usually starts with "s"
 }
